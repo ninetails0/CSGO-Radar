@@ -11,8 +11,8 @@ val writeMem(uintptr_t addr, HANDLE process, val x);
 
 struct offsets {
 	
-	uintptr_t entityList = 0x4DA31EC;
-	uintptr_t isSpotted = 0x93D;
+	uintptr_t entityList = 0x4DA31EC; //need to update offset
+	uintptr_t isSpotted = 0x93D; //need to update offset
 } offset;
 
 struct variables {
